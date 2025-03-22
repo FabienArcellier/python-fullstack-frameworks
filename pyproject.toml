@@ -8,7 +8,6 @@ readme = "README.md"
 packages = [
     {include = "dash_app", from = "src"},
     {include = "nicegui_app", from = "src"},
-    {include = "dash_app", from = "src"},
     {include = "writer_app", from = "src"},
 ]
 classifiers = [
@@ -24,10 +23,11 @@ python = "^3.12"
 streamlit = "^1.43.2"
 writer = "^0.8.2"
 nicegui = "^2.13.0"
-dash = "^3.0.0"
+dash = "^2.17.1"
 pandas = "^2.2.1"
 requests = "^2.31.0"
 plotly = "^5.22.0"
+dash-bootstrap-components = "^1.5.0"
 
 [tool.poetry.group.dev.dependencies]
 alfred-cli = "^2.2.7"

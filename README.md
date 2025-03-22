@@ -28,21 +28,20 @@ git clone https://github.com/FabienArcellier/python-fullstack-frameworks.git
 
 ## Usage
 
-### Streamlit Space Missions Dashboard
+### Dash Space Missions Dashboard
 
-You can run the Streamlit application to visualize space missions:
+You can run the Dash application to visualize space missions:
 
 ```bash
-streamlit run src/streamlit_app/main.py
+python src/dash_app/space_missions.py
 ```
 
 This application allows you to:
 - View the 200 most recent space missions
 - Filter by launcher
 - Filter by launch site
-- Filter by launch status
+- Interactive data table with sorting and filtering
 - Visualize a graph of the number of launches per month
-- See launch statistics
 
 ### Other Applications
 
