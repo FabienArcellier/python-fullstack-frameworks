@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "python-fullstack-frameworks"
+description = "blueprint to implement a python application"
+authors = ["Fabien Arcellier <fabien.arcellier@gmail.com>"]
+license = "MIT"
+version = "1.0.0"
+readme = "README.md"
+packages = [
+    {include = "dash_app", from = "src"},
+    {include = "nicegui_app", from = "src"},
+    {include = "dash_app", from = "src"},
+    {include = "writer_app", from = "src"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Environment :: Console"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.43.2"
+writer = "^0.8.2"
+nicegui = "^2.13.0"
+dash = "^3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+alfred-cli = "^2.2.7"
+mypy = "^1.14.1"
+pytest = "^8.3.4"
+ruff = "^0.8.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
