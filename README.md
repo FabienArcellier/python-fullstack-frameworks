@@ -2,6 +2,12 @@
 
 [![ci](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml)
 
+### Run in gitpod
+
+[Gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/python-fullstack-frameworks)
+
 ## Usage
 
 ### Dash Space Missions Dashboard
@@ -36,8 +42,4 @@ docker-compose build
 docker-compose run app
 ```
 
-### Run in gitpod
 
-[Gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
-
-[![Open in Gitpod](https://github.com/FabienArcellier/python-fullstack-frameworks)](https://github.com/FabienArcellier/python-fullstack-frameworks)
