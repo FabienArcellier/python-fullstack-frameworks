@@ -2,30 +2,6 @@
 
 [![ci](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml)
 
-Blueprint to implement a simple spike with Python3
-
-* Test Python code
-* Use Jupyter notebook with Python dependencies
-* ...
-
-The implementation is compatible with Python 3
-
-## Getting started
-
-1. Clone this repository
-
-2. Remove .git directory
-
-* [Prepare the blueprint to start a new project](./prepare%20the%20blueprint.md)
-
-## The latest version
-
-You can find the latest version to ...
-
-```bash
-git clone https://github.com/FabienArcellier/python-fullstack-frameworks.git
-```
-
 ## Usage
 
 ### Dash Space Missions Dashboard
@@ -64,8 +40,4 @@ docker-compose run app
 
 [Gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/blueprint-python3)
-
-## Developer guideline
-
-[... rest of the README remains the same ...]
+[![Open in Gitpod](https://github.com/FabienArcellier/python-fullstack-frameworks)](https://github.com/FabienArcellier/python-fullstack-frameworks)
