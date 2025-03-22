@@ -1,22 +1,22 @@
-## Fullstack python frameworks
+## Fullstack Python Frameworks
 
 [![ci](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml)
 
-blueprint to implement a simple spike with python3
+Blueprint to implement a simple spike with Python3
 
-* test python code
-* use jupyter notebook with python dependencies
+* Test Python code
+* Use Jupyter notebook with Python dependencies
 * ...
 
-The implementation is compatible with python 3
+The implementation is compatible with Python 3
 
 ## Getting started
 
-1. clone this repository
+1. Clone this repository
 
-2. remove .git directory
+2. Remove .git directory
 
-* [prepare the blueprint to start a new project](./prepare%20the%20blueprint.md)
+* [Prepare the blueprint to start a new project](./prepare%20the%20blueprint.md)
 
 ## The latest version
 
@@ -30,21 +30,23 @@ git clone https://github.com/FabienArcellier/python-fullstack-frameworks.git
 
 ### Streamlit Space Missions Dashboard
 
-Vous pouvez exécuter l'application Streamlit pour visualiser les missions spatiales :
+You can run the Streamlit application to visualize space missions:
 
 ```bash
 streamlit run src/streamlit_app/main.py
 ```
 
-Cette application vous permet de :
-- Voir les 40 dernières missions spatiales
-- Filtrer par lanceur
-- Filtrer par site de lancement
-- Visualiser un graphique du nombre de lancements par mois
+This application allows you to:
+- View the 200 most recent space missions
+- Filter by launcher
+- Filter by launch site
+- Filter by launch status
+- Visualize a graph of the number of launches per month
+- See launch statistics
 
-### Autres Applications
+### Other Applications
 
-Vous pouvez exécuter d'autres applications avec les commandes suivantes :
+You can run other applications with the following commands:
 
 ```bash
 python src/app/main.py
@@ -61,10 +63,10 @@ docker-compose run app
 
 ### Run in gitpod
 
-[gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
+[Gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/blueprint-python3)
 
-## Developper guideline
+## Developer guideline
 
 [... rest of the README remains the same ...]
