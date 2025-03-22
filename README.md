@@ -8,6 +8,13 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/python-fullstack-frameworks)
 
+in a terminal, run
+
+```bash
+poetry run python -m dash_app.main
+poetry run streamlit run src/streamlit_app/main.py
+```
+
 ## Usage
 
 ### Dash Space Missions Dashboard

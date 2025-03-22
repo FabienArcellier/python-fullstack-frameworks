@@ -12,6 +12,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Create a simple DataFrame with sample data in case the API fails
 sample_data = [
+    {'Name': 'Sample Mission', 'Date': '2023-01-01', 'Launcher': 'Sample Launcher', 'Launch Site': 'Sample Site', 'Mission': 'Sample Mission', 'Status': 'Success'},
 ]
 
 try:
